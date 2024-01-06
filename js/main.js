@@ -355,11 +355,11 @@ $("#switchmore").on("click", function () {
   if (shoemore && $(document).width() >= 990) {
     $("#container").attr("class", "container mores");
     $("#change").html("Oops&nbsp;!");
-    $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
+    $("#change1").html("哎呀，这都被你发现了（再点击一次可关闭）");
   } else {
     $("#container").attr("class", "container");
-    $("#change").html("Hello&nbsp;World&nbsp;!");
-    $("#change1").html("一个不正经的Up");
+    $("#change").html("祝你&nbsp;开心每一天&nbsp;!");
+    $("#change1").html("努力变强的小彩笔");
   }
 });
 
@@ -407,8 +407,8 @@ window.addEventListener("load", function () {
     if (window.innerWidth <= 990) {
       //移动端隐藏更多页面
       $("#container").attr("class", "container");
-      $("#change").html("Hello&nbsp;World&nbsp;!");
-      $("#change1").html("一个不正经的Up");
+      $("#change").html("祝你&nbsp;开心每一天&nbsp;!");
+      $("#change1").html("努力变强的小彩笔");
 
       //移动端隐藏弹窗页面
       $("#box").css("display", "none");
@@ -463,21 +463,19 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `;
-let title1 = "無名の主页";
+let title1 = "李骏杰の主页";
 let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
+
+██╗  ██╗██╗  ██╗███████╗███████╗██████╗ 
+╚██╗██╔╝╚██╗██╔╝██╔════╝██╔════╝██╔══██╗
+ ╚███╔╝  ╚███╔╝ █████╗  █████╗  ██████╔╝
+ ██╔██╗  ██╔██╗ ██╔══╝  ██╔══╝  ██╔══██╗
+██╔╝ ██╗██╔╝ ██╗██║     ███████╗██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝                                                  
 `;
 let content = `
-版 本 号：3.4
-更新日期：2022-07-24
-
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  https://xxfer.cn
+Github:  https://github.com/LJJbyZJU
 `;
 console.log(
   `%c${title1} %c${title2}
